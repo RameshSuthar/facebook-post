@@ -17,7 +17,7 @@ const CreateComment = (props) => {
     const handleSearchGif = (name) => {
       setSearchQuery({name});
       props.searchGifs(name);
-      console.log(searchQuery);
+      //console.log(searchQuery);
     }
 
     const handleGifs = () => {
@@ -25,6 +25,7 @@ const CreateComment = (props) => {
     }
 
     const addGif =(gifSrc) => {
+        handleGifs();
         setCurrGif({
             src: gifSrc
         });
@@ -54,7 +55,7 @@ const CreateComment = (props) => {
 			        	  <button onClick={handleClick} type="button">Post</button>
 			        	</div>
 			          </div>
-                    </form>
+              </form>
 			    </div>
 			</div>
     )
