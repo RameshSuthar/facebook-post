@@ -1,0 +1,30 @@
+.Gif-container {
+    overflow: auto;
+    padding: 8px 8px;
+    width: 380px;
+    height: 350px;
+    position: absolute;
+    top: 120px;
+    left: 16px;
+    background-color: aliceblue;
+}
+.Gif-search {
+    padding: 5px 5px;
+    width: 100%;
+}
+
+.Gif-flex {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70%;
+    margin: 2px 2px;
+}
+
+.Gif-img {
+    cursor: pointer;
+    position: inherit;
+    width: 95%;
+    height: 100%;
+}
