@@ -1,3 +1,0 @@
-window.env = {
-  "REACT_APP_GIPHY_API_KEY": "TIR0MIZjA8WM20tixr4UIvH7JJgFo1Sc"
-};
